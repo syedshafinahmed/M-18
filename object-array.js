@@ -18,3 +18,7 @@ for(const employee of employees){
     const emp_salary = employee.salary;
     console.log(emp_salary);
 }
+
+// change value
+employees[0].name = "Dhruv";
+console.log(employees[0].name);
